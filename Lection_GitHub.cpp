@@ -5,9 +5,11 @@ using namespace std;
 
 int main()
 {
-    cout << "Enter string: "; string str;
-    getline(cin, str);
-    cout << str;
+    string mas_array;
+    cout << "Enter array: "; cin >> mas_array;
+    for (int i = 0; i < mas_array.size(); ++i) {
+        cout << "[" << i << "]: " << mas_array[i] << endl;
+    }
 }
 
 
